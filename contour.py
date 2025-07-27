@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Đọc ảnh gốc
-img = cv2.imread(r'C:\Users\Divu\Desktop\test\estimate_shrmip\shrimp4.jpg')
+img = cv2.imread(r'C:\Users\Divu\Desktop\test\estimate_shrmip\shrimp2.jpg')
 original = img.copy()
 
 # Scale factor for physical unit conversion (adjust based on image calibration)
